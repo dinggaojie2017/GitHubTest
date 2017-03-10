@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.fontlose.relayctrl.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/logo"
+            android:gravity="center"
+            android:padding="10dp"
+            android:background="#30ffffff"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:layout_marginTop="50dp"
+            android:lineSpacingMultiplier="1.5"
+            android:text="丁高杰\n15电子转\n1516936010" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
